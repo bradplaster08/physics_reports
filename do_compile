@@ -1,0 +1,6 @@
+#!/bin/csh
+
+pdflatex fundamental_physics_neutrons.tex
+bibtex fundamental_physics_neutrons
+pdflatex fundamental_physics_neutrons.tex
+pdflatex fundamental_physics_neutrons.tex
